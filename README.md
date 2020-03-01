@@ -17,9 +17,11 @@ Note: requires `docker login`
 
 ## Run image
 Single Stock Symbols: 
+
 `$ docker run -it --rm macabees/ticker GOOG`
 
 Multiple Stock Symbols:
+
 `$ docker run -it --rm macabees/ticker AAPL MSFT GOOG BTC-USD`
 
 Multiple Stock Symbols (updated every five seconds):
