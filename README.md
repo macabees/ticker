@@ -11,7 +11,7 @@ Real-time command line stock ticker.
 `docker build -t macabees/ticker:latest .`
 
 ## Docker Push
-`$ docker push -t macabees/aafire:latest`
+`$ docker push -t macabees/ticker:latest`
 
 Note: requires `docker login`
 
